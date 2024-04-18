@@ -9,6 +9,7 @@ object SimpleScalaApp extends App{
 
   val spark = SparkSession.builder.master("local[2]").appName("Simple Scala App").getOrCreate()
 
+
  // val df = spark.range(100).toDF("number")
   //df.show(1001)
 
